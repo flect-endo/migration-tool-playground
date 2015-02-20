@@ -16,7 +16,7 @@
     <target name="pkg1">
       <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="pkg1" rollbackOnError="true"/>
       <mkdir dir="retrieveOutput"/>
-      <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveOutput" packageNames="pkg1"/>
+      <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveOutput" packageNames="Pkg1"/>
     </target>
 
     <!-- Retrieve the information of all items of a particular metadata type -->
